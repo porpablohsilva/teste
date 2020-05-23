@@ -1,0 +1,20 @@
+  
+< html >
+< title > apaixone se por voce </ title >
+< script  src = " https://aframe.io/releases/0.7.0/aframe.min.js " > </ script >
+< script  src = " https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js " > </ script >
+< estilo do corpo  = ' margem: 0px; estouro: oculto; ' >
+  < arjs incorporados em uma cena  > 
+    <! - coloque aqui seu conteúdo de AR ->
+  < ativos a >
+    < a-image  id = " ground " src = " https://github.com/porpablohsilva/inlove.git/inlove.jpg " >
+< a-image  src = " #ground " > </ a-image >
+  </ a-assets >
+    < altura do avião  = " 2 " width = " 1 " cor = " azul " posição = ' 0 1 0 ' > </ avião >
+    < valor do texto  = " \ n \ nApaixone se por voce \ n \ n @ inlovestore " position = ' 0,5 1 0,5 ' height = " 2 " width = " 1 " color = " white " > </ um texto >
+    < a-image  src = " github.com/porpablohsilva/inlove.git/inlove.jpg " position = " -1 0 1,5 " > </ a-image >
+    <! - na linha abaixo, uma câmera se move de acordo com o marcador ->
+    < a-marker-camera  preset = ' hiro ' > </ a-marker-camera >
+  </ uma cena >
+</ corpo >
+</ html >
